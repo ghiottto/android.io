@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'idroid';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -126,7 +126,7 @@ main a:hover {
 }
 
 main h1 {
-    font-family: var(--fonte-android);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--cor5);
     font-weight: normal;
     font-size: 1.8em;
