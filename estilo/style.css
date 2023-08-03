@@ -8,7 +8,6 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte-padrao);
-
 }
 
 :root {
@@ -24,7 +23,6 @@
     --fonte-destaque: 'Bebas Neue', cursive;
 
     --simbolo-link-externo: "\00a0\1F517";
-
 }
 
 body {
