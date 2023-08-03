@@ -2,12 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@font-face {
-    font-family: 'idroid';
-    src: url('../fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 * {
     margin: 0px;
@@ -24,9 +19,9 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
 
+    --fonte-android: 'Audiowide', cursive; 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'idroid', sans-serif;
 
     --simbolo-link-externo: "\00a0\1F517";
 
@@ -126,7 +121,7 @@ main a:hover {
 }
 
 main h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: var(--fonte-android);
     color: var(--cor5);
     font-weight: normal;
     font-size: 1.8em;
